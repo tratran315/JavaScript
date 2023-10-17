@@ -1,4 +1,4 @@
-const numbers = [9, 4, 13, 2, 20, -1, 0];
+const numbers1 = [9, 4, 13, 2, 20, -1, 0];
 
 const selectionSort = function (arr) {
   const copiedArr = [...arr];
@@ -17,4 +17,4 @@ const selectionSort = function (arr) {
   }
   return copiedArr;
 };
-console.log(selectionSort(numbers));
+console.log(selectionSort(numbers1));
